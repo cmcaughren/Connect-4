@@ -94,7 +94,7 @@ public:
    //prev_state but with an additional symbol (that of player to_move's) in column number Action
    State *Result(State *prev_state, int action);
 
-   //select a random column from Actions for to_move player to place thier symbol
+   //select a random column from Actions for to_move player to place their symbol
    int RAN_move(State *state);
 
    State *get_state();

@@ -365,7 +365,7 @@ long int Game::diagonal_down_score_check(State *state, int row, int col, char ma
          open_spots++;
       }
       else
-      { //its the oppoents symbol
+      { //its the opponents symbol
          op_pieces++;
       }
    }
@@ -404,7 +404,7 @@ long int Game::diagonal_up_score_check(State *state, int row, int col, char marb
          open_spots++;
       }
       else
-      { //its the oppoents symbol
+      { //its the opponents symbol
          op_pieces++;
       }
    }

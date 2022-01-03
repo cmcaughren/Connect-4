@@ -1,14 +1,14 @@
 all: main
 
-main: main.o A3.o
-        g++ -W -Wall -o main main.o A3.o
+main: main.o game.o
+	g++ -W -Wall -o main main.o game.o
 
-main.o: main.cpp A3.h
-        g++ -c main.cpp
+main.o: main.cpp game.h
+	g++ -c main.cpp
 
-A3.o: A3.cpp A3.h
-        g++ -c A3.cpp
+game.o: game.cpp game.h
+	g++ -c game.cpp
 
 .PHONY: clean
 clean:
-        rm A3.o main.o
+	rm game.o main.o
